@@ -1,14 +1,16 @@
 # Practice_Exercise_CCIS
-Begin by prompting the user to enter their name, age, bus class (Class A, Class B, Ordinary), destination, and payment amount.
+Write a Java program about banking. Kindly include the login part:
 
-Then, based on the entered age, determine the appropriate age classification: 
-- Ages 0-17: Minor
-- Ages 18-59: Adult
-- Ages 60 and above: Senior citizen (20% discount)
+Username:
+Password:
+(Only set up one account unless there's a database, but that's not required for this program).
 
-Next, calculate the fare based on the selected bus class and apply any applicable discounts. The fare amounts are as follows:
-- Class A: 45000
-- Class B: 30000
-- Ordinary: 17000
+After logging in, you will have 1 million pesos in your bank account. Once logged in, you can deposit or withdraw money as long as you have funds available.
 
-After calculating the fare, check if the payment amount is sufficient. If it's more than the grand total, calculate the change. If it's insufficient, prompt the user to enter the payment amount again, displaying a message to pay the exact amount or more.
+There are two options available: deposit and withdraw money.
+
+In the deposit option, you can add any amount of money you want to deposit.
+
+For withdrawals, there are no charges if you withdraw from the same bank which is BDO. However, if you withdraw from a different bank (other bank is the name of the other  option), there will be a 2.5% charge. 
+
+Also, please note that the maximum amount you can withdraw is 10,000 pesos. If you are going to withdraw more than 10,000 pesos, just withdraw again it will show 10,000 pesos is the maximum amount to withdraw per transaction.
