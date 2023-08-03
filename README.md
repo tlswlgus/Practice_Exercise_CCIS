@@ -1,4 +1,4 @@
-# Practice_Exercise_CCIS
+# Practice_Exercise_CCIS_2
 Write a Java program about banking. Kindly include the login part:
 
 Username:
